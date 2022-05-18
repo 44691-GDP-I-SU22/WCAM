@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #aa7804;
+  color: white;
+}
+ /* emergency button style */
+ .button {
+        background-color: #1c87c9;
+        -webkit-border-radius: 60px;
+        border-radius: 60px;
+        border: none;
+        color: #eeeeee;
+        cursor: pointer;
+        display: inline-block;
+        font-family: sans-serif;
+        font-size: 20px;
+        padding: 5px 15px;
+        text-align: center;
+        text-decoration: none;
+      }
+      @keyframes glowing {
+        0% {
+          background-color: #a80505;
+          box-shadow: 0 0 5px #a8050d;
+        }
+        50% {
+          background-color: #e81919;
+          box-shadow: 0 0 20px #e8191d;
+        }
+        100% {
+          background-color: #a80505;
+          box-shadow: 0 0 5px #a8050d;
+        }
+      }
+      .button {
+        animation: glowing 1300ms infinite;
+      }
+ /* emergency button style */
+
+</style>
+</head>
+<body >
+  
+
+  
+
+<div class="topnav">
+  <a class="active" href="Home.html">Home</a>
+  <a href="Login.html">Login</a>
+  <a href="Registration.html">Guest User?</a>
+  <a href="Login.html">Services</a>
+  <a href="Login.html">Doctors</a>
+
+</div>
+
+<center><div style="padding-left:16px">
+  <h2>Welcome To Wellness Center</h2>
+  <p>Feeling not Good?, Make your Appointment Today</p>
+  <marquee> -> Flu Vaccination Drive on May 20   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+     ->Blood Donation Drive </marquee>
+</div></center>
+<br><br><br><br><br><br><br><br><br>
+<center><div>
+  <button><a href="">Book Appointment</a></button>
+</div></center>
+<br> <br> <br><br>
+<center><div><a class="button" href="">Emergency Appointment!</a>
+</div></center>
+
+</body>
+</html>
